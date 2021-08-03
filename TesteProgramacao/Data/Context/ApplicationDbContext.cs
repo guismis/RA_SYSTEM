@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace TesteProgramacao.Data.Context
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class CatalagoDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        public CatalagoDbContext(DbContextOptions<CatalagoDbContext> options) : base(options)
         {
         }        
     }
